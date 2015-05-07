@@ -1,0 +1,299 @@
+* {
+  /* border: 1px solid red; */
+}
+.topcontent {
+  height: 60px;
+  background-color: #1C1C1C;
+  display: block;
+}
+.head {
+  float: left;
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.icon {
+  margin-left: 280px;
+  margin-top: 5px;
+  height: 54px;
+  width: 54px;
+  background-color: grey;
+  opacity: .5;
+  float: left;
+}
+.mobber {
+  margin-left: 10px;
+}
+.findamob {
+  margin-left: 50px;
+}
+.startamob {
+  margin-left: 41px;
+}
+.facecircle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 840px;
+  margin-top: 5px;
+  background-color: white;
+}
+.username {
+  font-size: 12px;
+  margin-left: 240px;
+  margin-top: -30px;
+}
+.dropicon {
+  margin-left: 15px;
+  margin-top: -30px;
+  height: 12px;
+  width: 12px;
+  background-color: grey;
+  opacity: .5;
+  float: left;
+}
+.banner {
+  height: 87px;
+  font-size: 25px;
+  text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.maincontent {
+  height: 578px;
+  background-color: #F2F0EC;
+  display: block;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.worldtour {
+  background-image: url("u2worldtour.jpg");
+  background-position: -250px -130px;
+  background-repeat: no-repeat;
+  height: 490px;
+  width: 482px;
+  margin-top: 30px;
+  margin-left: 280px;
+  float: left;
+}
+.tourheader {
+  top: 0;
+  background-color: rgba(0, 0, 0, .4);
+  display: block;
+  height: 56px;
+  width: 481px;
+}
+.tourtext {
+  margin-left: 10px;
+  float: left;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  opacity: 1;
+}
+.clockicon {
+  float: left;
+  height: 19px;
+  width: 19px;
+  margin-top: 18px;
+  margin-left: 150px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+}
+.fa-clock-o {
+  color: rgba(255, 217, 74, 1);
+  font-size: 24px;
+  margin-left: 1px;
+}
+.tourtext2 {
+  float: left;
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 23px;
+  opacity: 1;
+}
+.tourfooter {
+  height: 83px;
+  bottom: 0;
+  background-color: rgba(208, 205, 200, 1);
+  margin-top: 350px;
+}
+.footertext {
+  color: RGBA(87, 87, 85, 1);
+  font-size: 14px;
+  margin-left: 23px;
+  margin-top: 27px;
+  margin-bottom: 18px;
+}
+.postcontent {
+  height: 610px;
+}
+.lastcontent {
+  height: 340px;
+  background-color: #545252;
+}
+.number {
+  height: 163px;
+  width: 151px;
+  background-color: rgba(208, 205, 200, 1);
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.seven {
+  margin-left: 20px;
+  text-align: center;
+}
+.fifty {
+  margin-left: 20px;
+  text-align: center;
+}
+.bignumber {
+  font-size: 54px;
+  margin-top: 37px;
+  margin-left: 34px;
+  margin-bottom: 28px;
+  margin-right: 34px;
+  color: white;
+}
+.numberfoot {
+  margin-top: 10px;
+  width: 150px;
+  height: 33px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(181, 174, 164, 1);
+}
+.dos {
+  margin-right: 50px;
+}
+.footline {
+  color: RGBA(65, 65, 65, 1);
+  margin-top: 5px;
+}
+.join {
+  float: left;
+  height: 52px;
+  width: 300px;
+  background-color: rgba(251, 210, 72, 1);
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.jointhismob {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+}
+.reward {
+  float: left;
+  display: block;
+  height: 75px;
+  width: 290px;
+  margin-top: -5px;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  border-bottom: 2px solid grey;
+  margin-left: 25px;
+}
+.medalicon {
+  float: left;
+  height: 51px;
+  width: 37px;
+  margin-left: 10px;
+  margin-bottom: 14px;
+  margin-top: 11px;
+  margin-right: 5px;
+  background-color: yellow;
+}
+.yourreward {
+  float: left;
+  font-size: 15px;
+  margin-top: 17px;
+}
+.ticket {
+  float: left;
+  font-size: 10px;
+  margin-top: -5px;
+  margin-right: 60px;
+}
+.spread {
+  float: left;
+  width: 300px;
+  height: 46px;
+  margin-top: 15px;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 2px solid rgba(132, 132, 131, 1);
+}
+.theword {
+  font-size: 10px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  color: rgba(132, 132, 131, 1);
+}
+.social {
+  float: left;
+  display: block;
+  margin-left: 22px;
+  margin-top: 18px;
+  width: 340px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.bu {
+  margin-top: 1px;
+  float: left;
+}
+.tweet {
+  display: inline-block;
+  margin-left: 1px;
+  width: 55px;
+  height: 25px;
+  background: #f8f8f8 url(http://platform.twitter.com/images/bird.png) 2px 3px no-repeat;
+  background-size: 16px 13px, auto, auto;
+  border-radius: 3px;
+  border: #ccc solid 1px;
+}
+.logotweet {
+  float: right;
+  margin-top: 5px;
+  font-family: bold Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: #333;
+  text-shadow: 0 1px 0 rbga(255, 255, 255, .5);
+  white-space: no-wrap;
+}
+.share {
+  margin-left: 5px;
+  width: 57px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 5%;
+}
+.mail {
+  margin-left: 5px;
+  width: 38px;
+  height: 25px;
+  background-color: red;
+  border-radius: 5%;
+}
+.linkicon {
+  margin-left: 7px;
+  margin-top: 5px;
+  float: left;
+  height: 14px;
+  width: 14px;
+  background-color: grey;
+}
+.link {
+  width: 124px;
+  height: 25px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  color: blue;
+}
