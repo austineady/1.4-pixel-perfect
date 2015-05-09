@@ -1,9 +1,15 @@
 * {
   /* border: 1px solid red; */
+  font-family: Questrial;
 }
 .topcontent {
+  top: 0;
   height: 60px;
-  background-color: #1C1C1C;
+  width: 1500px;
+  background: -webkit-linear-gradient(rgba(80, 80, 80, 1), rgba(0, 0, 0, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(80, 80, 80, 1), rgba(0, 0, 0, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(80, 80, 80, 1), rgba(0, 0, 0, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(80, 80, 80, 1), rgba(0, 0, 0, 1)); /* Standard syntax */
   display: block;
 }
 .head {
@@ -12,7 +18,7 @@
   font-size: 14px;
   margin-top: 25px;
   margin-bottom: 25px;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Questrial;
 }
 .icon {
   margin-left: 280px;
@@ -36,18 +42,20 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  margin-left: 840px;
+  margin-left: 337px;
   margin-top: 5px;
+  margin-bottom: 5px;
   background-color: white;
+  float: left;
 }
 .username {
   font-size: 12px;
-  margin-left: 240px;
-  margin-top: -30px;
+  margin-left: 10px;
+  font-color: white;
 }
 .dropicon {
-  margin-left: 15px;
-  margin-top: -30px;
+  margin-left: 10px;
+  margin-top: 25px;
   height: 12px;
   width: 12px;
   background-color: grey;
@@ -56,24 +64,26 @@
 }
 .banner {
   height: 87px;
+  width: 1500px;
   font-size: 25px;
   text-align: center;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Questrial;
 }
 .maincontent {
   height: 578px;
+  width: 1500px;
   background-color: #F2F0EC;
   display: block;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Questrial;
 }
 .worldtour {
   background-image: url("u2worldtour.jpg");
-  background-position: -250px -130px;
+  background-position: -150px -130px;
   background-repeat: no-repeat;
   height: 490px;
-  width: 482px;
+  width: 620px;
   margin-top: 30px;
-  margin-left: 280px;
+  margin-left: 279px;
   float: left;
 }
 .tourheader {
@@ -81,22 +91,23 @@
   background-color: rgba(0, 0, 0, .4);
   display: block;
   height: 56px;
-  width: 481px;
+  width: 620px;
 }
 .tourtext {
-  margin-left: 10px;
+  margin-left: 16px;
   float: left;
   text-align: left;
   color: white;
   font-size: 20px;
   opacity: 1;
+  word-spacing: 3px;
 }
 .clockicon {
   float: left;
   height: 19px;
   width: 19px;
   margin-top: 18px;
-  margin-left: 150px;
+  margin-left: 230px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0);
   opacity: 1;
@@ -113,34 +124,54 @@
   margin-left: 10px;
   margin-top: 23px;
   opacity: 1;
+  word-spacing: 3px;
+  letter-spacing: 1px;
 }
 .tourfooter {
   height: 83px;
-  bottom: 0;
   background-color: rgba(208, 205, 200, 1);
-  margin-top: 350px;
+  margin-top: 345px;
+  word-spacing: 4px;
+}
+.message {
+  width: 140px;
+  height: 33px;
+  margin-left: -6px;
+  margin-top: -17px;
+  margin-bottom: 10px;
+  background-color: rgba(248, 205, 70, 1);
+  box-shadow: 0 1px 1px rgba(209, 148, 0, 1);
+  position: absolute;
+}
+.mobmessage {
+  color: white;
+  text-shadow: 0 1px 1px rgba(219, 166, 56, 1);
+  font-size: 14px;
+  position: absolute;
+  margin: 12px 17px 10px 18px;
 }
 .footertext {
-  color: RGBA(87, 87, 85, 1);
-  font-size: 14px;
+  color: rgba(87, 87, 85, 1);
+  font-size: 17px;
   margin-left: 23px;
-  margin-top: 27px;
   margin-bottom: 18px;
-}
-.postcontent {
-  height: 610px;
+  margin-top: 24px;
+  width: 550px;
+  position: absolute;
 }
 .lastcontent {
   height: 340px;
+  width: 1500px;
   background-color: #545252;
 }
 .number {
-  height: 163px;
-  width: 151px;
+  height: 153px;
+  width: 140px;
   background-color: rgba(208, 205, 200, 1);
   float: left;
   margin-top: 30px;
   margin-bottom: 10px;
+  text-shadow: 0px 2px 1px rgba(161, 158, 154, 1);
 }
 .seven {
   margin-left: 20px;
@@ -149,22 +180,24 @@
 .fifty {
   margin-left: 20px;
   text-align: center;
+  margin-right: 250px;
 }
 .bignumber {
   font-size: 54px;
-  margin-top: 37px;
-  margin-left: 34px;
+  margin-top: 26px;
+  margin-left: 12px;
   margin-bottom: 28px;
-  margin-right: 34px;
+  margin-right: 12px;
+  margin-bottom: 26px;
   color: white;
 }
 .numberfoot {
-  margin-top: 10px;
-  width: 150px;
+  margin-top: 38px;
+  width: 139px;
   height: 33px;
-  text-align: center;
   vertical-align: middle;
   background-color: rgba(181, 174, 164, 1);
+  text-shadow: 0px 1px 1px rgba(217, 214, 209, 1);
 }
 .dos {
   margin-right: 50px;
@@ -172,31 +205,45 @@
 .footline {
   color: RGBA(65, 65, 65, 1);
   margin-top: 5px;
+  padding-top: 7px;
 }
 .join {
   float: left;
   height: 52px;
   width: 300px;
-  background-color: rgba(251, 210, 72, 1);
+  background: -webkit-linear-gradient(rgba(251, 210, 72, 1), rgba(236, 166, 57, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(251, 210, 72, 1), rgba(236, 166, 57, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(251, 210, 72, 1), rgba(236, 166, 57, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(251, 210, 72, 1), rgba(236, 166, 57, 1)); /* Standard syntax */
   border-radius: 10px;
+  border: 2px solid rgba(255, 247, 197, 1);
+  border: 2px solid rgba(203, 143, 48, 1);
   margin-top: 25px;
   margin-left: 20px;
+  padding-bottom: 15px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, .5);
 }
 .jointhismob {
   color: white;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
   text-align: center;
-  font-size: 19px;
+  font-size: 21px;
+  text-shadow: 0px 2px 2px rgba(191, 131, 57, 1);
 }
 .reward {
   float: left;
   display: block;
   height: 75px;
-  width: 290px;
+  width: 300px;
   margin-top: -5px;
-  border-right: 1px solid grey;
-  border-left: 1px solid grey;
-  border-bottom: 2px solid grey;
+  border-bottom: 3px solid rgba(232, 232, 232, 1);
+  box-shadow: -2px 0 2px rgba(178, 178, 178, 1);
+  box-shadow: 2px 0 2px rgba(178, 178, 178, 1);
+  box-shadow: 0 1px 1px rgba(178, 178, 178, 1);
+  border-radius: 10px;
   margin-left: 25px;
+  margin-right: 270px;
 }
 .medalicon {
   float: left;
@@ -215,7 +262,7 @@
 }
 .ticket {
   float: left;
-  font-size: 10px;
+  font-size: 11px;
   margin-top: -5px;
   margin-right: 60px;
 }
@@ -225,8 +272,9 @@
   height: 46px;
   margin-top: 15px;
   margin-left: 20px;
+  margin-right: 270px;
   background-color: rgba(0, 0, 0, 0);
-  border-bottom: 2px solid rgba(132, 132, 131, 1);
+  border-bottom: 1px solid rgba(132, 132, 131, 1);
 }
 .theword {
   font-size: 10px;
@@ -292,8 +340,239 @@
 .link {
   width: 124px;
   height: 25px;
-  margin-top: 3px;
+  margin-top: 7px;
   margin-bottom: 7px;
   margin-left: 5px;
-  color: blue;
+  font-size: 12px;
+  color: rgba(16, 130, 172, 1);
+}
+.thirdcontent {
+  height: 610px;
+  width: 1500px;
+}
+.postbox {
+  display: block;
+  width: 947px;
+  height: 282px;
+  margin-left: 278px;
+  margin-top: 38px;
+  border-bottom: 1px solid grey;
+  margin-right: 281px;
+}
+.post {
+  float: left;
+  height: 250px;
+  width: 300px;
+  background-size: 300px 194px;
+  background-repeat: no-repeat;
+  display: block;
+  font-family: Roboto;
+}
+.food {
+  margin-left: 22px;
+}
+.group {
+  margin-left: 19px;
+}
+.watch {
+  background-image: url("watchad.jpg");
+}
+.food {
+  background-image: url("nikeburger.jpg");
+}
+.group {
+  background-image: url("imdbjs.png");
+}
+.title {
+  word-spacing: 3px;
+  font-weight: 700;
+  width: 160px;
+  margin-top: 203px;
+  font-size: 13px;
+  color: rgba(65, 65, 65, 1);
+  float: left;
+}
+.funny {
+  width: 192px;
+}
+.status {
+  width: 192px;
+  margin-top: 6px;
+  font-size: 10px;
+  color: rgba(120, 120, 120, 1);
+  float: left;
+}
+.clockicon2 {
+  float: right;
+  height: 19px;
+  width: 19px;
+  margin-left: 43px;
+  margin-top: 200px;
+  border-radius: 50%;
+  margin-right: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+}
+.fa-clock-o {
+  color: rgba(255, 217, 74, 1);
+  font-size: 24px;
+  margin-left: 1px;
+}
+.seconds {
+  float: right;
+  margin-left: 4px;
+  margin-top: 206px;
+  font-size: 10px;
+  color: rgba(65, 65, 65, 1);
+}
+.tablestart {
+  float: left;
+  display: block;
+  height: 213px;
+  width: 982px;
+  margin-top: 50px;
+  margin-right: 281px;
+}
+.headers {
+  float: left;
+  width: 620px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  margin-top: 0;
+  color: rgba(65, 65, 65, 1);
+}
+.chart {
+  float: left;
+  width: 622px;
+  height: 150px;
+  font-size: 12px;
+  padding-bottom: 5px;
+  font-family: Roboto;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  word-spacing: 2px;
+}
+.row {
+  color: rgba(65, 65, 65, 1);
+  vertical-align: bottom;
+}
+.col {
+  width: 192px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(218, 218, 218, 1);
+}
+.mobneed {
+  color: rgba(65, 65, 65, .8);
+  margin-left: 52px;
+  width: 138px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(218, 218, 218, 1);
+}
+.year {
+  color: rgba(65, 65, 65, .6);
+  text-align: right;
+  margin-left: 82px;
+  width: 152px;
+  padding-bottom: 15px;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(218, 218, 218, 1);
+}
+.last {
+  border-bottom: 1px solid white;
+}
+.start {
+  float: left;
+  display: block;
+  margin-left: 15px;
+  margin-top: -57px;
+  height: 210px;
+  width: 299px;
+  background-color: rgba(208, 205, 200, 1);
+}
+.startyourownmob {
+  float: left;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 2px 1px rgba(157, 155, 151, 1);
+  margin-left: 27px;
+  margin-top: 21px;
+  word-spacing: 3px;
+}
+.buttons {
+  float: left;
+  margin-left: 29px;
+  margin-top: -35px;
+}
+.round {
+  float: left;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  color: rgba(120, 120, 120, 1);
+  background: -webkit-linear-gradient(rgba(213, 213, 213, 1), rgba(253, 253, 253, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(213, 213, 213, 1), rgba(253, 253, 253, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(213, 213, 213, 1), rgba(253, 253, 253, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(213, 213, 213, 1), rgba(253, 253, 253, 1)); /* Standard syntax */
+  border: 2px solid rgba(239, 239, 239, 1);
+  box-shadow: 0 0 0 2px rgba(161, 159, 156, 1);
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+.digit {
+  padding: 10px;
+  margin-top: -3px;
+  margin-left: 2px;
+  text-shadow: 0 1px rgba(251, 251, 251, 1);
+}
+.options {
+  float: left;
+  font-size: 11px;
+  width: 62px;
+  text-align: center;
+  color: rgba(65, 65, 65, 1);
+  margin-bottom: 11px;
+}
+.upload {
+  margin-left: 18px;
+}
+.write {
+  margin-left: 47px;
+}
+.uploadmob {
+  margin-left: 39px;
+}
+.line {
+  float: left;
+  width: 64px;
+  height: 7px;
+  background-color: rgba(161, 159, 156, 1);
+  margin-top: 15px;
+  opacity: .7;
+}
+.startamobbottom {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  width: 277px;
+  height: 59px;
+  box-shadow: 0 0 0 1px rgba(126, 123, 120, 1);
+  border-top: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 7px;
+  background: -webkit-linear-gradient(rgba(231, 230, 227, 1), rgba(208, 205, 200, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(231, 230, 227, 1), rgba(208, 205, 200, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(231, 230, 227, 1), rgba(208, 205, 200, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(231, 230, 227, 1), rgba(208, 205, 200, 1)); /* Standard syntax */
+}
+.startamobtext {
+  font-size: 23px;
+  margin-right: 76px;
+  margin-top: 17px;
+  margin-bottom: 21px;
+  margin-left: 76px;
+  color: rgba(16, 130, 172, 1);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
 }
