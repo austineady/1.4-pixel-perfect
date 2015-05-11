@@ -1,41 +1,54 @@
 * {
   /* border: 1px solid red; */
   font-family: Questrial;
+  letter-spacing: .5;
 }
 .topcontent {
   top: 0;
   height: 60px;
   width: 1500px;
-  background: -webkit-linear-gradient(rgba(80, 80, 80, 1), rgba(0, 0, 0, 1)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgba(80, 80, 80, 1), rgba(0, 0, 0, 1)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgba(80, 80, 80, 1), rgba(0, 0, 0, 1)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(80, 80, 80, 1), rgba(0, 0, 0, 1)); /* Standard syntax */
+  background: -webkit-linear-gradient(rgba(80, 80, 80, 1), rgba(25, 25, 20, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(80, 80, 80, 1), rgba(20, 20, 20, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(80, 80, 80, 1), rgba(20, 20, 20, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(80, 80, 80, 1), rgba(20, 20, 20, 1)); /* Standard syntax */
   display: block;
 }
 .head {
   float: left;
   color: white;
   font-size: 14px;
-  margin-top: 25px;
-  margin-bottom: 25px;
   font-family: Questrial;
 }
 .icon {
   margin-left: 280px;
-  margin-top: 5px;
-  height: 54px;
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 30px;
   width: 54px;
-  background-color: grey;
-  opacity: .5;
+  background-image: url("haticon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   float: left;
 }
 .mobber {
+  float: left;
+  position: relative;
+  font-size: 16px;
   margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: Trocchi;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 0 rgba(15, 15, 15, 1);
 }
 .findamob {
   margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .startamob {
+  margin-top: 25px;
+  margin-bottom: 25px;
   margin-left: 41px;
 }
 .facecircle {
@@ -45,32 +58,48 @@
   margin-left: 337px;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: white;
+  background-image: url(http://www.thetimes.co.uk/tto/multimedia/archive/00349/115391127_Connery_349376c.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -10px;
   float: left;
 }
 .username {
   font-size: 12px;
   margin-left: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-color: white;
 }
 .dropicon {
   margin-left: 10px;
-  margin-top: 25px;
+  margin-top: 22px;
   height: 12px;
   width: 12px;
-  background-color: grey;
+  background-color: rgba(0, 0, 0, 0);
   opacity: .5;
   float: left;
 }
+.fa-caret-down {
+  color: rgba(156, 156, 156, 1);
+  font-size: 21px;
+  text-shadow: 0 1px rgba(1, 1, 1, 1);
+}
 .banner {
-  height: 87px;
+  height: 57px;
   width: 1500px;
-  font-size: 25px;
   text-align: center;
   font-family: Questrial;
+  border-bottom: 2px solid rgba(217, 217, 217, 1);
+}
+.bannerwords {
+  font-size: 30px;
+  margin-top: 29px;
+  color: rgba(65, 65, 65, 1);
 }
 .maincontent {
-  height: 578px;
+  height: 576px;
+  border-bottom: 2px solid rgba(217, 217, 217, 1);
   width: 1500px;
   background-color: #F2F0EC;
   display: block;
@@ -145,10 +174,17 @@
 }
 .mobmessage {
   color: white;
-  text-shadow: 0 1px 1px rgba(219, 166, 56, 1);
+  text-shadow: 0 2px 1px rgba(219, 166, 56, 1);
   font-size: 14px;
   position: absolute;
-  margin: 12px 17px 10px 18px;
+  margin: 12px 17px 14px 18px;
+}
+.fa-caret-right {
+  color: rgba(248, 205, 70, 1);
+  font-size: 15px;
+  transform: rotate(-45deg);
+  margin-top: 27px;
+  margin-left: 2px;
 }
 .footertext {
   color: rgba(87, 87, 85, 1);
@@ -159,11 +195,6 @@
   width: 550px;
   position: absolute;
 }
-.lastcontent {
-  height: 340px;
-  width: 1500px;
-  background-color: #545252;
-}
 .number {
   height: 153px;
   width: 140px;
@@ -171,7 +202,7 @@
   float: left;
   margin-top: 30px;
   margin-bottom: 10px;
-  text-shadow: 0px 2px 1px rgba(161, 158, 154, 1);
+  text-shadow: 0px 1px 1px rgba(161, 158, 154, 1);
 }
 .seven {
   margin-left: 20px;
@@ -183,16 +214,15 @@
   margin-right: 250px;
 }
 .bignumber {
-  font-size: 54px;
+  font-size: 70px;
   margin-top: 26px;
   margin-left: 12px;
-  margin-bottom: 28px;
+  margin-bottom: 27px;
   margin-right: 12px;
   margin-bottom: 26px;
   color: white;
 }
 .numberfoot {
-  margin-top: 38px;
   width: 139px;
   height: 33px;
   vertical-align: middle;
@@ -203,25 +233,24 @@
   margin-right: 50px;
 }
 .footline {
+  font-size: 15px;
   color: RGBA(65, 65, 65, 1);
-  margin-top: 5px;
-  padding-top: 7px;
+  padding-top: 10px;
 }
 .join {
   float: left;
   height: 52px;
   width: 300px;
-  background: -webkit-linear-gradient(rgba(251, 210, 72, 1), rgba(236, 166, 57, 1)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgba(251, 210, 72, 1), rgba(236, 166, 57, 1)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgba(251, 210, 72, 1), rgba(236, 166, 57, 1)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(251, 210, 72, 1), rgba(236, 166, 57, 1)); /* Standard syntax */
-  border-radius: 10px;
-  border: 2px solid rgba(255, 247, 197, 1);
-  border: 2px solid rgba(203, 143, 48, 1);
+  background: -webkit-linear-gradient(rgba(251, 210, 72, 1), rgba(234, 165, 56, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(251, 210, 72, 1), rgba(234, 165, 56, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(251, 210, 72, 1), rgba(234, 165, 56, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(251, 210, 72, 1), rgba(234, 165, 56, 1)); /* Standard syntax */
+  border-radius: 5px;
+  border-top: 1px solid rgba(255, 247, 197, 1);
   margin-top: 25px;
   margin-left: 20px;
   padding-bottom: 15px;
-  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 0 2px rgba(221, 152, 10, 1);
 }
 .jointhismob {
   color: white;
@@ -234,16 +263,17 @@
 .reward {
   float: left;
   display: block;
-  height: 75px;
-  width: 300px;
-  margin-top: -5px;
-  border-bottom: 3px solid rgba(232, 232, 232, 1);
-  box-shadow: -2px 0 2px rgba(178, 178, 178, 1);
-  box-shadow: 2px 0 2px rgba(178, 178, 178, 1);
-  box-shadow: 0 1px 1px rgba(178, 178, 178, 1);
-  border-radius: 10px;
+  height: 70px;
+  width: 287px;
+  margin-top: 2px;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  border-right: 2px solid rgba(178, 178, 178, 1);
+  border-left: 2px solid rgba(178, 178, 178, 1);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
   margin-left: 25px;
   margin-right: 270px;
+  background-color: white;
 }
 .medalicon {
   float: left;
@@ -253,12 +283,15 @@
   margin-bottom: 14px;
   margin-top: 11px;
   margin-right: 5px;
-  background-color: yellow;
+  background-image: url("medalreward.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .yourreward {
   float: left;
   font-size: 15px;
   margin-top: 17px;
+  font-weight: bold;
 }
 .ticket {
   float: left;
@@ -277,7 +310,8 @@
   border-bottom: 1px solid rgba(132, 132, 131, 1);
 }
 .theword {
-  font-size: 10px;
+  text-align: center;
+  font-size: 11px;
   margin-left: 18px;
   margin-bottom: 20px;
   color: rgba(132, 132, 131, 1);
@@ -297,37 +331,40 @@
 }
 .tweet {
   display: inline-block;
-  margin-left: 1px;
   width: 55px;
   height: 25px;
-  background: #f8f8f8 url(http://platform.twitter.com/images/bird.png) 2px 3px no-repeat;
-  background-size: 16px 13px, auto, auto;
+  background: #f8f8f8 url(http://platform.twitter.com/images/bird.png) 5px 5px no-repeat;
+  background-size: 20px 17px, auto, auto;
   border-radius: 3px;
   border: #ccc solid 1px;
 }
-.logotweet {
-  float: right;
-  margin-top: 5px;
-  font-family: bold Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  text-decoration: none;
-  color: #333;
-  text-shadow: 0 1px 0 rbga(255, 255, 255, .5);
-  white-space: no-wrap;
-}
 .share {
+  border: #ccc solid 1px;
   margin-left: 5px;
   width: 57px;
   height: 25px;
-  background-color: blue;
-  border-radius: 5%;
+  background-color: rgba(68, 97, 157, 1);
+  border-radius: 3px;
+}
+.fa-facebook-official {
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 3px;
 }
 .mail {
+  border: #ccc solid 1px;
   margin-left: 5px;
   width: 38px;
   height: 25px;
-  background-color: red;
-  border-radius: 5%;
+  background-color: rgba(243, 243, 243, 1);
+  border-radius: 3px;
+}
+.fa-google-plus {
+  color: rgba(218, 86, 66, 1);
+  font-size: 20px;
+  margin-top: 3px;
+  margin-left: 5px;
 }
 .linkicon {
   margin-left: 7px;
@@ -335,7 +372,10 @@
   float: left;
   height: 14px;
   width: 14px;
-  background-color: grey;
+}
+.fa-link {
+  font-size: 14px;
+  color: rgba(79, 79, 78, 1);
 }
 .link {
   width: 124px;
@@ -487,7 +527,7 @@
 .start {
   float: left;
   display: block;
-  margin-left: 15px;
+  margin-left: 25px;
   margin-top: -57px;
   height: 210px;
   width: 299px;
@@ -575,4 +615,253 @@
   margin-left: 76px;
   color: rgba(16, 130, 172, 1);
   text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+}
+.lastcontent {
+  display: block;
+  height: 340px;
+  width: 1500px;
+  background-color: #545252;
+}
+.listhead {
+  float: left;
+  font-size: 18px;
+  color: white;
+  width: 302px;
+  text-shadow: 0 1px 0 rgba(21, 21, 21, 1);
+  margin-left: 278px;
+  margin-top: 29px;
+  letter-spacing: 1px;
+}
+.listbox {
+  position: absolute;
+  width: 302px;
+  height: 256px;
+  margin-top: 61px;
+  margin-left: 278px;
+  margin-bottom: 45px;
+  display: block;
+}
+.categleft {
+  float: left;
+  width: 138px;
+  height: 256px;
+}
+.categright {
+  float: left;
+  width: 138px;
+  height: 256px;
+  margin-left: 21px;
+}
+.categ {
+  height: 36px;
+  width: 138px;
+  background-color: rgba(84, 84, 83, 1);
+  border-top: 1px solid rgba(146, 146, 145, 1);
+  box-shadow: 0 0 0 1px rgba(56, 56, 56, 1);
+  border-radius: 3px;
+  margin-right: 21px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.cattext {
+  line-height: 35px;
+  font-size: 14px;
+  color: white;
+  text-shadow: 0 1px 0 rgba(35, 35, 35, 1);
+}
+.connect {
+  float: left;
+  height: 258px;
+  width: 219px;
+  margin-bottom: 45px;
+  margin-left: 99px;
+  margin-top: 28px;
+  text-align: left;
+  display: block;
+}
+.connecttext {
+  float: left;
+  font-size: 18px;
+  word-spacing: 2px;
+  color: white;
+  text-shadow: 0 1px 0 rgba(21, 21, 21, 1);
+}
+.para {
+  float: left;
+  font-size: 12px;
+  height: 40px;
+  word-spacing: 3px;
+  text-shadow: 0 1px 0 rgba(21, 21, 21, 1);
+  color: rgba(218, 218, 218, 1);
+  margin-top: 18px;
+}
+.email {
+  float: left;
+  width: 218px;
+  height: 45px;
+  box-shadow: inherit 0 2px 1px rgba(176, 176, 176, 1);
+  background-color: rgba(253, 253, 253, 1);
+  border-radius: 3px;
+  margin-top: 15px;
+}
+.emailtext {
+  position: absolute;
+  margin-left: 13px;
+  margin-bottom: 17px;
+  margin-top: 17px;
+  color: rgba(120, 120, 120, 1);
+}
+.checkmark {
+  position: absolute;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-left: 174px;
+  height: 45px;
+  width: 45px;
+  background-color: rgba(157, 157, 157, 1);
+}
+.fa-check {
+  color: white;
+  margin-left: 7px;
+  margin-top: 7px;
+  font-size: 30px;
+}
+.likeface {
+  display: block;
+  width: 218px;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 162px;
+  border-bottom: 1px solid rgba(56, 56, 56, 1);
+}
+.twitter {
+  width: 218px;
+  height: 30px;
+  display: block;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(56, 56, 56, 1);
+}
+.goog {
+  display: block;
+  width: 218px;
+  height: 30px;
+  font-size: 15px;
+}
+.like {
+  margin-top: 7px;
+  float: left;
+  color: white;
+}
+.twittext {
+  margin-top: 7px;
+  float: left;
+  color: white;
+}
+.plusone {
+  margin-top: 7px;
+  float: left;
+  color: white;
+}
+.iconsocial {
+  float: left;
+  height: 21px;
+  width: 21px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 11px;
+}
+.twi {
+  margin-top: 4px;
+}
+.goo {
+  margin-top: 4px;
+}
+.fa-facebook {
+  margin-left: 6px;
+  margin-top: 5px;
+  font-size: 20px;
+  color: rgba(84, 82, 82, 1);
+}
+.fa-twitter {
+  margin-left: 3px;
+  margin-top: 3px;
+  color: rgba(84, 82, 82, 1);
+  font-size: 18px;
+}
+.fa-google {
+  color: rgba(84, 82, 82, 1);
+  font-size: 23px;
+}
+.works {
+  height: 275px;
+  width: 222px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 19px;
+}
+.howitworks {
+  background: -webkit-linear-gradient(rgba(251, 210, 72, 1), rgba(234, 165, 56, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(251, 210, 72, 1), rgba(234, 165, 56, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(251, 210, 72, 1), rgba(234, 165, 56, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(251, 210, 72, 1), rgba(234, 165, 56, 1)); /* Standard syntax */
+  border-radius: 5px;
+  border-top: 1px solid rgba(255, 247, 197, 1);
+  box-shadow: 0 0 0 1px rgba(221, 152, 10, 1);
+  width: 222px;
+  height: 53px;
+  text-align: center;
+}
+.howtext {
+  line-height: 50px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 17px;
+  text-shadow: 0px 2px 2px rgba(191, 131, 57, 1);
+}
+.aproblem {
+  position: absolute;
+  margin-top: 25px;
+  text-align: left;
+  font-size: 17px;
+  color: white;
+}
+.feelfree {
+  width: 193px;
+  position: absolute;
+  margin-top: 58px;
+  text-align: left;
+  color: rgba(218, 218, 218, 1);
+  font-size: 13px;
+  word-spacing: 2px;
+}
+.emailus {
+  position: absolute;
+  margin-top: 112px;
+  height: 36px;
+  width: 138px;
+  background-color: rgba(84, 84, 83, 1);
+  border-top: 1px solid rgba(146, 146, 145, 1);
+  box-shadow: 0 0 0 1px rgba(56, 56, 56, 1);
+  border-radius: 3px;
+  text-align: center;
+}
+.ustext {
+  line-height: 35px;
+  font-size: 14px;
+  color: white;
+  text-shadow: 0 1px 0 rgba(35, 35, 35, 1);
+}
+.copyright {
+  position: absolute;
+  margin-top: 180px;
+  width: 222px;
+  height: 29px;
+  padding-top: 11px;
+  border-top: 1px solid rgba(56, 56, 56, 1);
+  color: rgba(221, 221, 221, 1);
+  font-size: 13px;
+}
+.fa-copyright {
+  font-size: 13px;
+  color: rgba(221, 221, 221, 1);
 }
